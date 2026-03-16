@@ -72,3 +72,20 @@ Di cualquiera de estas frases:
 **Luis Miguel Salgado Alonso** — [SalgadoIA](https://github.com/SalgadoIA)
 
 Skill desarrollada como parte del framework NorteIA para automatizacion de propuestas comerciales B2B.
+
+
+---
+
+## Autor
+
+Creado por **Luis Salgado** — **NorteIA** / **SalgadoIA**
+- Web: [salgadoia.com](https://salgadoia.com)
+- LinkedIn: [linkedin.com/in/luis-salgado-salgado](https://linkedin.com/in/luis-salgado-salgado)
+
+---
+
+> **¿Quieres skills como esta, personalizadas para tu negocio?**
+>
+> Esta es la versión genérica y open-source. En **NorteIA** diseñamos skills a medida para empresas: onboarding de clientes, generación de propuestas, automatización de procesos comerciales, y mucho más.
+>
+> Contacta con nosotros en [norteia.es](https://norteia.es) o [salgadoia.com](https://salgadoia.com)
