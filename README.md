@@ -97,7 +97,7 @@ La skill te pedira un formulario con 7 campos y ejecutara las 5 fases automatica
 3. **Distribuyas modificaciones** bajo la misma licencia
 4. **No la uses comercialmente** sin permiso expreso del autor
 
-Para uso comercial, contacta con: contacto@norteia.es
+Para uso comercial, contacta con: luis@salgadoia.com
 
 Ver [LICENSE](./LICENSE) para el texto completo.
 
