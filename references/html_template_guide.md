@@ -35,27 +35,39 @@ que sea visualmente idéntico al template `procesos_premium` de referencia.
 
 ```css
 :root {
-  --cream:       #F5F0E8;
+  /* --- CROMO DEL BRIEF: identidad de quien firma el entregable -------------
+     Default neutro y editorial. Si tienes marca propia, sustituye estos
+     valores (y los de references/palette.md) por los tuyos.
+     Regla 90·9·1: ~90% superficie neutra · ~9% tinta · ~1% acento. */
+  --cream:       #F7F3EA;   /* fondo general, neutro cálido */
   --white:       #FFFFFF;
-  --navy:        #0A3D62;
-  --navy-light:  #1A5276;
+  --navy:        #0A1232;   /* tinta   — nav, titulares */
+  --navy-light:  #6E6759;   /* piedra  — secundario */
+  --text:        #0A1232;   /* tinta */
+  --muted:       #6E6759;   /* piedra */
+  --border:      #DCD4C2;   /* filete */
+  --gold:        #2020FF;   /* ÚNICO acento. El nombre de la variable es
+                               histórico: el valor ya no es dorado. */
+
+  /* --- SEMÁNTICOS: siempre acompañados de etiqueta de texto -------------- */
+  --red:         #B0453C;   /* Alerta */
+  --red-light:   #ECE5D6;   /* Arena — fondo neutro, el color vive en el texto */
+  --green:       #2F7A52;   /* Éxito */
+  --green-light: #ECE5D6;   /* Arena */
+  --amber:       #A97A1F;   /* Aviso */
+  --amber-light: #ECE5D6;   /* Arena */
+
+  /* --- ESCALA CATEGÓRICA del mapa de áreas: NO es marca -------------------
+     Codifica áreas del negocio del cliente dentro del diagrama, no identidad.
+     Se conserva a propósito (ver references/palette.md). Obligatorio:
+     cada área lleva su ETIQUETA de texto; el color nunca va solo. */
   --blue:        #1B6CA8;
   --blue-mid:    #2E86C1;
   --blue-light:  #D6EAF8;
   --teal:        #0E7C7B;
   --teal-light:  #D1F2EB;
-  --amber:       #B7770D;
-  --amber-light: #FEF9E7;
-  --red:         #B03A2E;
-  --red-light:   #FDEDEC;
-  --green:       #1D6A39;
-  --green-light: #EAFAF1;
   --purple:      #6C3483;
   --purple-light:#F4ECF7;
-  --text:        #1C2833;
-  --muted:       #7F8C8D;
-  --border:      #E8E0D0;
-  --gold:        #C9A84C;
 }
 ```
 
@@ -67,7 +79,7 @@ que sea visualmente idéntico al template `procesos_premium` de referencia.
 <nav>
   <!-- Lado izquierdo: logo + separador + subtítulo -->
   <div class="nav-brand">
-    <span class="nav-logo">Norte IA</span>
+    <span class="nav-logo">[BRAND]</span>  <!-- marca del operador/consultora -->
     <div class="nav-divider"></div>
     <!-- Aquí va: "[Nombre org] · Diagnóstico Operativo" -->
     <span class="nav-subtitle">[ORG_NAME] · Diagnóstico Operativo</span>
@@ -215,9 +227,9 @@ const FUNCIONALIDADES = [ /* generado por la skill */ ];
 brief_[org_slug]_[YYYYMMDD].html
 
 Ejemplos:
-  brief_colegio_procuradores_coruna_20260310.html
-  brief_clinica_redvital_20260310.html
-  brief_finca_style_20260310.html
+  brief_colegio_profesional_20260310.html
+  brief_clinica_dental_20260310.html
+  brief_cooperativa_agricola_20260310.html
 ```
 
 `org_slug` = nombre_org en minúsculas, sin tildes, espacios → guión bajo, máx 4 palabras.
